@@ -7,6 +7,19 @@ body {
     background-color: #000;
 }
 
+.btn {
+    font-size: 16px;
+    color: #000;
+    line-height: 16px;
+    font-family: $dmmono;
+    background: #8DFD1B;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+/* Header */
+
 .header {
     &__container {
         padding-top: 48px;
@@ -48,6 +61,39 @@ body {
         & img {
             background-color: #fff;
             padding: 8px;
+        }
+    }
+}
+
+/* Section Label */
+
+.label {
+    padding-bottom: 109px;
+    &__content-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content-text {
+        padding: 133px 0 0 77px;
+        & h1 {
+            max-width: 484px;
+            font-family: $audiowide;
+            font-size: 51px;
+            line-height: 61px;
+            color: #fff;
+        }
+
+        & p {
+            padding: 43px 0 115px 0;
+            max-width: 340px;
+            font-family: $inter;
+            line-height: 26px;
+            color: #fff;
+        }
+
+        & a {
+            padding: 17px 60px 27px 60px;
         }
     }
 }
