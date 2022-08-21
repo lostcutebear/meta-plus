@@ -79,4 +79,74 @@ body {
 }
 .label__content-text a {
   padding: 17px 60px 27px 60px;
+}
+
+/* Section Collection */
+.collection {
+  padding-bottom: 120px;
+}
+.collection__wrapper {
+  max-width: 1160px;
+  padding-left: 40px;
+}
+.collection__content {
+  display: flex;
+  gap: 242px;
+}
+
+.content__text-img h2 {
+  font-family: "Audiowide";
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height, or 120% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.content__text-img p {
+  margin-bottom: 41px;
+  width: 351px;
+  font-family: "Audiowide";
+  font-size: 38px;
+  line-height: 45px;
+  /* or 120% */
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+.content__text-wrapper {
+  padding-left: 66px;
+}
+.content__desc p {
+  font-family: "Inter";
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.content__desc p:nth-child(2) {
+  margin-bottom: 18px;
+}
+.content__desc p:nth-child(3) {
+  margin-bottom: 17px;
+}
+.content__desc p:nth-child(4) {
+  margin-bottom: 16px;
+}
+.content__desc p:first-child {
+  margin-bottom: 27px;
+  width: 546px;
+  font-family: "DM Mono";
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+}
+.content__desc-btn {
+  margin-top: 50px;
+}
+.content__desc-btn a {
+  font-family: "DM Mono", monospace;
+  border: 1px solid #8DFD1B;
+  padding: 10px 33px 16px 33px;
+  color: #fff;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
