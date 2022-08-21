@@ -1,1 +1,42 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+
+.header__container {
+  padding-top: 48px;
+  max-width: 1220px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__logo-links {
+  display: flex;
+  gap: 40px;
+}
+.header__nav {
+  padding-top: 4px;
+}
+.header__nav-list {
+  display: flex;
+  gap: 40px;
+}
+.header__nav-list-link {
+  color: #fff;
+  line-height: 16px;
+  font-family: "DM Mono", monospace;
+}
+.header__social {
+  display: flex;
+  gap: 12px;
+}
+.header__social img {
+  background-color: #fff;
+  padding: 8px;
+}/*# sourceMappingURL=style.css.map */
