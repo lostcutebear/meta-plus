@@ -222,3 +222,26 @@ body {
         }
     }
 }
+
+/* List of Artists */
+
+.artists-list {
+    padding-bottom: 240px;
+    &__wrapper {
+        max-width: 1250px;
+        padding-left: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    &__person {
+        & h4 {
+            margin-top: 20px; 
+            line-height: 24px;
+            font-family: $dmmono;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}

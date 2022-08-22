@@ -189,4 +189,23 @@ body {
 }
 .artist__title p:first-child {
   margin: 0 630px 0 -193px;
+}
+
+/* List of Artists */
+.artists-list {
+  padding-bottom: 240px;
+}
+.artists-list__wrapper {
+  max-width: 1250px;
+  padding-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.artists-list__person h4 {
+  margin-top: 20px;
+  line-height: 24px;
+  font-family: "DM Mono", monospace;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
