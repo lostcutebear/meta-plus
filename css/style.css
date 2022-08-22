@@ -301,9 +301,122 @@ body {
   padding-left: 10px;
 }
 
+/* Background */
 .background {
   padding-bottom: 120px;
 }
 .background__wrapper img {
   width: 100%;
+}
+
+/* Roadmap */
+.roadmap {
+  padding-bottom: 240px;
+}
+.roadmap__title p {
+  margin-bottom: 61px;
+  font-family: "Audiowide", cursive;
+  font-size: 38px;
+  line-height: 45.48px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.roadmap__stages-wrapper {
+  padding: 45px 90px 48px 90px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.roadmap__stage {
+  background: #222;
+  border: 1px solid #8DFD1B;
+  position: relative;
+  z-index: 999;
+}
+.roadmap__stage:not(:last-child) {
+  margin-bottom: 140px;
+}
+.roadmap__stage:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 1px;
+  position: absolute;
+  height: 40px;
+  background: #8DFD1B;
+  bottom: -85px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.roadmap__stage-title {
+  display: flex;
+  align-items: center;
+  gap: 11.75px;
+  padding: 12px 12px 13px 12px;
+  border-bottom: 1px solid #8DFD1B;
+}
+.roadmap__stage-title div:first-child {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 16px;
+  font-size: 28px;
+  font-family: "DM Mono", monospace;
+  line-height: 28.43px;
+  color: #000;
+  background: #8DFD1B;
+}
+.roadmap__stage-title p:first-child {
+  margin-bottom: 1px;
+  font-family: "DM Mono";
+  font-size: 8px;
+  line-height: 12px;
+  /* identical to box height, or 150% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8DFD1B;
+}
+.roadmap__stage-title p:last-child {
+  font-family: "DM Mono";
+  line-height: 28px;
+  /* identical to box height, or 173% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.roadmap__stage-info {
+  padding: 30px 12px;
+}
+.roadmap__stage-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 75px;
+}
+.roadmap__stage-info-wrapper div:first-child p {
+  width: 298px;
+}
+.roadmap__stage-info-wrapper div:nth-child(2) p {
+  width: 293px;
+}
+.roadmap__stage-info-wrapper div:last-child p {
+  width: 301px;
+}
+.roadmap__stage-info-wrapper ul li, .roadmap__stage-info-wrapper p {
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+.roadmap__stage-info-wrapper ul {
+  margin-bottom: 16.37px;
+  padding-left: 22.25px;
+}
+.roadmap__stage-info-wrapper ul li {
+  line-height: 32px;
+}
+.roadmap__stage-info-wrapper img {
+  max-width: 129px;
+  width: 100%;
+  max-height: 129px;
+  height: 100%;
+}
+.roadmap__stage-info-wrapper p {
+  line-height: 25.6px;
 }/*# sourceMappingURL=style.css.map */

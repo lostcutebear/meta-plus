@@ -365,3 +365,139 @@ body {
         }
     }
 }
+
+/* Roadmap */
+
+.roadmap {
+    padding-bottom: 240px;
+    &__title {
+        & p {
+            margin-bottom: 61px;
+            font-family: $audiowide;
+            font-size: 38px;
+            line-height: 45.48px;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+
+    &__stages-wrapper {
+        padding: 45px 90px 48px 90px;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    &__stage {
+        background: #222;
+        border: 1px solid #8DFD1B;
+        position: relative;
+        z-index: 999;
+
+        &:not(:last-child) {
+            margin-bottom: 140px;
+        }
+
+        &:not(:last-child)::after {
+            content: "";
+            display: block;
+            width: 1px;
+            position: absolute;
+            height: 40px;
+            background: #8DFD1B;
+            bottom: -85px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__stage-title {
+        display: flex;
+        align-items: center;
+        gap: 11.75px;
+        padding: 12px 12px 13px 12px;
+        border-bottom: 1px solid #8DFD1B;
+
+        & div:first-child {
+            width: fit-content;
+            padding: 8px 16px;
+            font-size: 28px;
+            font-family: $dmmono;
+            line-height: 28.43px;
+            color: #000;
+            background: #8DFD1B;
+        }
+
+        & p:first-child {
+            margin-bottom: 1px;
+            font-family: 'DM Mono';
+            font-size: 8px;
+            line-height: 12px;
+            /* identical to box height, or 150% */
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #8DFD1B;
+        }
+
+        & p:last-child {
+            font-family: 'DM Mono';
+            line-height: 28px;
+            /* identical to box height, or 173% */
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+
+    &__stage-info {
+        padding: 30px 12px;
+    }
+
+    &__stage-info-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 75px;
+
+        & div:first-child {
+            & p {
+                width: 298px;        
+            }
+        }
+
+        & div:nth-child(2) {
+            & p {
+                width: 293px;
+            }
+        }
+
+        & div:last-child {
+            & p {
+                width: 301px;
+            }
+        }
+
+        & ul li, & p {
+            font-size: 11px;
+            font-family: $inter;
+            color: #fff;
+        }
+
+        & ul {
+            margin-bottom: 16.37px;
+            padding-left: 22.25px;
+            & li {
+                line-height: 32px;
+            }
+        }
+
+        & img {
+            max-width: 129px;
+            width: 100%;
+            max-height: 129px;
+            height: 100%;
+        }
+
+        & p {
+            line-height: 25.6px; 
+        }
+    }
+}
