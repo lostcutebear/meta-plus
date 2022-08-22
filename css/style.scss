@@ -245,3 +245,112 @@ body {
         }
     }
 }
+
+/* Story */
+
+.story {
+    padding-bottom: 120px;
+    &__wrapper {
+        max-width: 1260px;
+        padding-left: 40px;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 61px;
+        text-align: center;
+        text-transform: uppercase;
+        & p:first-child {
+            font-family: 'Audiowide';
+            font-size: 37px;
+            line-height: 45px;  
+            color: #FFFFFF;
+        }
+
+        & p:last-child {
+            font-family: 'Audiowide';
+            font-size: 38px;
+            line-height: 45px;
+            color: #A8A8A8;
+        }
+    }
+
+    &__section-founders, &__section-partners, &__section-future {
+        width: 282px;
+        padding: 25px 0 31px 28px;
+    }
+
+    &__section-founders {
+        background: #222;
+        & a {
+            font-family: 'DM Mono';
+            line-height: 16px;
+            font-size: 16px;
+            color: #8DFD1B;
+        }
+    }
+
+    &__section-partners, &__section-future {
+        & a {
+            font-family: 'DM Mono';
+            font-size: 16px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__text {
+        display: flex;
+    }
+
+    &__desc {
+        max-width: 878px;
+        background: #222;
+        padding: 60px;
+    }
+        
+    &__desc-wrapper {
+        display: flex;
+        gap: 40px;
+    }
+        
+    &__desc-text {
+        & p {
+            font-family: 'Inter';
+            line-height: 26px;
+            color: #FFFFFF;
+            &:nth-child(2) {
+                margin-bottom: 18px;
+            }
+
+            &:nth-child(3) {
+                margin-bottom: 17px;
+            }
+        }
+
+        & p:first-child {
+            margin-bottom: 32px;
+            max-width: 494px;
+            position: relative;
+            font-family: 'DM Mono';
+            font-size: 21px;
+            line-height: 32px;
+            color: #8DFD1B;
+        }
+
+        & p:first-child::before {
+            content: "";
+            width: 2px;
+            height: 93px;
+            background: #8DFD1B;
+            position: absolute;
+            top: 0;
+            left: -22px;
+        }
+    }
+
+    &__desc-title-wrapper {
+        padding-left: 10px;
+    }
+}
