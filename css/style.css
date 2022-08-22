@@ -170,4 +170,23 @@ body {
 }
 .content__desc-btn a:hover {
   background: #8DFD1B;
+}
+
+/* Artist */
+.artist {
+  overflow: hidden;
+  padding-bottom: 127px;
+}
+.artist__wrapper {
+  display: flex;
+}
+.artist__title p {
+  font-family: "Audiowide", cursive;
+  font-size: 79px;
+  line-height: 88px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.artist__title p:first-child {
+  margin: 0 630px 0 -193px;
 }/*# sourceMappingURL=style.css.map */

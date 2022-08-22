@@ -199,3 +199,26 @@ body {
         }
     }
 }
+
+/* Artist */
+
+.artist {
+    overflow: hidden;
+    padding-bottom: 127px;
+    &__wrapper {
+        display: flex;
+    }
+
+    &__title {
+        & p {
+            font-family: $audiowide;
+            font-size: 79px;
+            line-height: 88px;
+            color: #fff;
+            text-transform: uppercase;
+            &:first-child { 
+                margin: 0 630px 0 -193px;
+            }
+        }
+    }
+}
