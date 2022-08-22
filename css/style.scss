@@ -108,12 +108,14 @@ body {
     }
     &__content {
         display: flex;
+        justify-content: space-between;
         gap: 242px;
     }
 }
 
 .content {
     &__text-img {
+        max-width: 360px;
         & h2 {
             font-family: 'Audiowide';
             font-size: 38px;
@@ -125,7 +127,7 @@ body {
 
         & p {
             margin-bottom: 41px;
-            width: 351px;
+            max-width: 351px;
             font-family: 'Audiowide';
             font-size: 38px;
             line-height: 45px;
@@ -140,6 +142,7 @@ body {
     }
 
     &__desc {
+        max-width: 580px;
         & p {
             font-family: 'Inter';
             font-size: 15px;
@@ -159,12 +162,23 @@ body {
         }
 
         & p:first-child {
+            position: relative;
             margin-bottom: 27px;
             width: 546px; 
             font-family: 'DM Mono';
             font-size: 21px;
             line-height: 32px;
             color: #8DFD1B;
+        }
+
+        & p:first-child::before {
+            content: "";
+            width: 2px;
+            height: 124px;
+            background: #8DFD1B;
+            position: absolute;
+            top: 0;
+            left: -22px;
         }
     }
 
@@ -178,6 +192,10 @@ body {
             line-height: 16px;
             text-align: center;
             text-transform: capitalize;
+            transition: background .7s linear;
+            &:hover {
+                background: #8DFD1B;
+            }
         }
     }
 }

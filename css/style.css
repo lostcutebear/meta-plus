@@ -91,9 +91,13 @@ body {
 }
 .collection__content {
   display: flex;
+  justify-content: space-between;
   gap: 242px;
 }
 
+.content__text-img {
+  max-width: 360px;
+}
 .content__text-img h2 {
   font-family: "Audiowide";
   font-size: 38px;
@@ -104,7 +108,7 @@ body {
 }
 .content__text-img p {
   margin-bottom: 41px;
-  width: 351px;
+  max-width: 351px;
   font-family: "Audiowide";
   font-size: 38px;
   line-height: 45px;
@@ -114,6 +118,9 @@ body {
 }
 .content__text-wrapper {
   padding-left: 66px;
+}
+.content__desc {
+  max-width: 580px;
 }
 .content__desc p {
   font-family: "Inter";
@@ -131,12 +138,22 @@ body {
   margin-bottom: 16px;
 }
 .content__desc p:first-child {
+  position: relative;
   margin-bottom: 27px;
   width: 546px;
   font-family: "DM Mono";
   font-size: 21px;
   line-height: 32px;
   color: #8DFD1B;
+}
+.content__desc p:first-child::before {
+  content: "";
+  width: 2px;
+  height: 124px;
+  background: #8DFD1B;
+  position: absolute;
+  top: 0;
+  left: -22px;
 }
 .content__desc-btn {
   margin-top: 50px;
@@ -149,4 +166,8 @@ body {
   line-height: 16px;
   text-align: center;
   text-transform: capitalize;
+  transition: background 0.7s linear;
+}
+.content__desc-btn a:hover {
+  background: #8DFD1B;
 }/*# sourceMappingURL=style.css.map */
