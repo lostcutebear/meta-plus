@@ -299,4 +299,11 @@ body {
 }
 .story__desc-title-wrapper {
   padding-left: 10px;
+}
+
+.background {
+  padding-bottom: 120px;
+}
+.background__wrapper img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

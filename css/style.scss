@@ -354,3 +354,12 @@ body {
         padding-left: 10px;
     }
 }
+
+.background {
+    padding-bottom: 120px;
+    &__wrapper{
+        & img {
+            width: 100%;
+        }
+    }
+}
