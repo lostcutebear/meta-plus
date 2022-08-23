@@ -682,3 +682,51 @@ body {
     }
 }
 
+/* Discord */
+
+.discord {
+    &__wrapper {
+        max-width: 1567px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 200px;
+    }
+
+    &__text {
+        & p:not(:nth-child(3)) {
+            font-family: 'Audiowide';
+            font-size: 51px;
+            line-height: 61px;
+            text-transform: uppercase;
+        }
+
+        & p:first-child {
+            color: #FFFFFF;
+        }
+
+        & p:nth-child(2) {
+            margin-bottom: 34px;
+            color: #8DFD1B;
+        }
+
+        & p:nth-child(3) {
+            margin-bottom: 35px;
+            width: 345px;
+            font-family: 'Inter';
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+        
+        & a {
+            & img {
+                vertical-align: top;
+            }
+            padding: 17px 32px 6px 32px;
+        }
+    }
+}
+
+
