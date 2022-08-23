@@ -367,7 +367,7 @@ body {
 }
 .roadmap__stage-title p:first-child {
   margin-bottom: 1px;
-  font-family: "DM Mono";
+  font-family: "DM Mono", monospace;
   font-size: 8px;
   line-height: 12px;
   /* identical to box height, or 150% */
@@ -376,7 +376,7 @@ body {
   color: #8DFD1B;
 }
 .roadmap__stage-title p:last-child {
-  font-family: "DM Mono";
+  font-family: "DM Mono", monospace;
   line-height: 28px;
   /* identical to box height, or 173% */
   text-transform: uppercase;
@@ -419,4 +419,29 @@ body {
 }
 .roadmap__stage-info-wrapper p {
   line-height: 25.6px;
+}
+
+.partners {
+  padding-bottom: 245px;
+}
+.partners__wrapper {
+  max-width: 1200px;
+  padding-left: 40px;
+}
+.partners__title p {
+  margin-bottom: 50px;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #8DFD1B;
+}
+.partners__name-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+  row-gap: 60px;
 }/*# sourceMappingURL=style.css.map */

@@ -430,7 +430,7 @@ body {
 
         & p:first-child {
             margin-bottom: 1px;
-            font-family: 'DM Mono';
+            font-family: $dmmono;
             font-size: 8px;
             line-height: 12px;
             /* identical to box height, or 150% */
@@ -440,7 +440,7 @@ body {
         }
 
         & p:last-child {
-            font-family: 'DM Mono';
+            font-family: $dmmono;
             line-height: 28px;
             /* identical to box height, or 173% */
             text-transform: uppercase;
@@ -499,5 +499,33 @@ body {
         & p {
             line-height: 25.6px; 
         }
+    }
+}
+
+.partners {
+    padding-bottom: 245px;
+    &__wrapper {
+        max-width: 1200px;
+        padding-left: 40px;
+    }
+
+    &__title{
+        & p {
+            margin-bottom: 50px;
+            font-family: $dmmono;
+            font-size: 11px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #8DFD1B;
+        }
+    }
+
+    &__name-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 85px;
+        row-gap: 60px;
     }
 }
