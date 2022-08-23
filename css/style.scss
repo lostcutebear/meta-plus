@@ -730,4 +730,73 @@ body {
     }
 }
 
+.footer {
+    background: #42006A;
+    &__wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 101px 0 100px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        & img {
+            margin-bottom: 70px;
+        }
+
+        & p {
+            font-family: $dmmono;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__list {
+        display: flex;
+        gap: 100px;
+
+        & ul {
+            & li a {
+                font-family: $dmmono;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+
+            & li { 
+                &:not(:last-child) {
+                    margin-bottom: 29px;
+                }
+            }
+        }
+    }
+
+    &__author-company, &__author-developer {
+        display: flex;
+        gap: 5px;
+
+        & p {
+            font-family: $dmmono;
+            font-size: 13px;
+            line-height: 15px;
+            color: #FFFFFF;
+            &:last-child {
+                margin-bottom: 29px;
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        & img {
+            background-color: #fff;
+            padding: 8px;
+        }
+    }
+}
+
 

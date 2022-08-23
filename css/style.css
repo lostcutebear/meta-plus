@@ -613,4 +613,59 @@ body {
 }
 .discord__text a img {
   vertical-align: top;
+}
+
+.footer {
+  background: #42006A;
+}
+.footer__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 101px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo img {
+  margin-bottom: 70px;
+}
+.footer__logo p {
+  font-family: "DM Mono", monospace;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer__list {
+  display: flex;
+  gap: 100px;
+}
+.footer__list ul li a {
+  font-family: "DM Mono", monospace;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer__list ul li:not(:last-child) {
+  margin-bottom: 29px;
+}
+.footer__author-company, .footer__author-developer {
+  display: flex;
+  gap: 5px;
+}
+.footer__author-company p, .footer__author-developer p {
+  font-family: "DM Mono", monospace;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.footer__author-company p:last-child, .footer__author-developer p:last-child {
+  margin-bottom: 29px;
+}
+.footer__social {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.footer__social img {
+  background-color: #fff;
+  padding: 8px;
 }/*# sourceMappingURL=style.css.map */
