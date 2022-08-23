@@ -544,6 +544,7 @@ body {
     &__title {
         display: flex;
         column-gap: 220px;
+        flex-shrink: 1;
     }
 
     &__text {
@@ -611,6 +612,72 @@ body {
             &:first-child { 
                 margin: 0 390px 0 -113px;
             }
+        }
+    }
+}
+
+/* Coworkers */
+
+.coworkers {
+    margin-bottom: 236px;
+    &__wrapper {
+        max-width: 1360px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+}
+
+.coworker {
+    &__info {
+        & img {
+            margin-bottom: 19px;
+        }
+        & h5 {
+            margin-bottom: 18px;
+            font-family: 'DM Mono';
+            font-size: 21px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        & p:nth-child(3) {
+            margin-bottom: 22px;
+            font-family: 'DM Mono';
+            font-size: 11px;
+            line-height: 12px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #8DFD1B;
+        }
+        
+        & p:last-child {
+            font-family: 'Inter';
+            font-size: 12px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 238px;
+            margin: 0 auto;
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 22px;
+        & a {
+            width: 36px;
+            height: 36px;
+            background: #fff;
+            padding: 8px;
         }
     }
 }
