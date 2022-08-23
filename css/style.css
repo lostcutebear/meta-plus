@@ -421,6 +421,7 @@ body {
   line-height: 25.6px;
 }
 
+/* Partners */
 .partners {
   padding-bottom: 245px;
 }
@@ -444,4 +445,53 @@ body {
   -moz-column-gap: 85px;
        column-gap: 85px;
   row-gap: 60px;
+}
+
+/* FAQ */
+.faq {
+  padding-bottom: 115px;
+}
+.faq__wrapper {
+  max-width: 1350px;
+  padding-left: 99px;
+}
+.faq__title {
+  display: flex;
+  -moz-column-gap: 220px;
+       column-gap: 220px;
+}
+.faq__text p {
+  font-family: "Audiowide", cursive;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+.faq__text p:nth-child(odd) {
+  color: #fff;
+}
+.faq__text p:nth-child(2) {
+  color: #a8a8a8;
+}
+.faq__text-wrapper {
+  margin-bottom: 51px;
+}
+.faq__content {
+  padding: 23px 30px 29px 30px;
+  background: #222222;
+}
+.faq__content-text p {
+  max-width: 514px;
+  width: 100%;
+  overflow-y: auto;
+  margin-bottom: 25px;
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+.faq__content-text h5 {
+  margin-bottom: 26px;
+  font-family: "DM Mono", monospace;
+  line-height: 24px;
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */

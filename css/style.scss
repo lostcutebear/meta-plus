@@ -502,6 +502,8 @@ body {
     }
 }
 
+/* Partners */
+
 .partners {
     padding-bottom: 245px;
     &__wrapper {
@@ -529,3 +531,64 @@ body {
         row-gap: 60px;
     }
 }
+
+/* FAQ */
+
+.faq {
+    padding-bottom: 115px;
+    &__wrapper {
+        max-width: 1350px;
+        padding-left: 99px;
+    }
+
+    &__title {
+        display: flex;
+        column-gap: 220px;
+    }
+
+    &__text {
+        & p {
+            font-family: $audiowide;
+            font-size: 38px;
+            line-height: 45px;
+            text-transform: uppercase;
+            &:nth-child(odd) {
+                color: #fff;
+            }
+
+            &:nth-child(2) {
+                color: #a8a8a8;
+            }
+        }
+    }
+
+    &__text-wrapper {
+        margin-bottom: 51px;
+    }
+
+    &__content {
+        padding: 23px 30px 29px 30px;
+        background: #222222;
+    }
+    
+    &__content-text {
+        & p {
+            max-width: 514px;
+            width: 100%;
+            overflow-y: auto;
+            margin-bottom: 25px;
+            font-family: 'Inter';
+            font-size: 12px;
+            line-height: 19px;
+            color: #C4C4C4;
+        }
+
+        & h5 {
+            margin-bottom: 26px;
+            font-family: $dmmono;
+            line-height: 24px;
+            color: #FFF;
+        }
+    }
+}
+
