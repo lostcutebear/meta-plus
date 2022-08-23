@@ -592,3 +592,26 @@ body {
     }
 }
 
+/* Team */
+
+.team {
+    overflow: hidden;
+    padding-bottom: 122px;
+    &__wrapper {
+        display: flex;
+    }
+
+    &__title {
+        & p {
+            font-family: $audiowide;
+            font-size: 79px;
+            line-height: 88px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            &:first-child { 
+                margin: 0 390px 0 -113px;
+            }
+        }
+    }
+}
+

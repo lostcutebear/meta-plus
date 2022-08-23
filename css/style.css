@@ -494,4 +494,23 @@ body {
   font-family: "DM Mono", monospace;
   line-height: 24px;
   color: #FFF;
+}
+
+/* Team */
+.team {
+  overflow: hidden;
+  padding-bottom: 122px;
+}
+.team__wrapper {
+  display: flex;
+}
+.team__title p {
+  font-family: "Audiowide", cursive;
+  font-size: 79px;
+  line-height: 88px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.team__title p:first-child {
+  margin: 0 390px 0 -113px;
 }/*# sourceMappingURL=style.css.map */
